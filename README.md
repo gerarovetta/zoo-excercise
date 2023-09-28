@@ -17,10 +17,10 @@ type of animal.
       - `Elephant.js`: A class representing elephants.
       - ... 
     - `zoo.js`: A class for the zoo representation.
-- `index.js`: main project file.
-- `test/`: Contains unit tests for the project.
-  - `test.js`: The unit test file for testing the zoo and animal classes.
-- `package.json`: Project metadata and dependencies.
+  - `index.js`: main project file.
+  - `test/`: Contains unit tests for the project.
+    - `test.js`: The unit test file for testing the zoo and animal classes.
+  - `package.json`: Project metadata and dependencies.
 
 
 ## Usage
