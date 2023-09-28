@@ -66,7 +66,7 @@ type of animal.
   The Lion class is a subclass of the Animal class, representing a specific species in the zoo (in this case, lions).
   It can inherit properties and methods from the Animal class and add its own unique characteristics, such as a specific sound.
   The Lion class might override the makeSound method to provide the lion's distinctive roar.
-  
+
 ```javascript
   class Lion extends Animal {
   /**
@@ -91,7 +91,7 @@ const myZoo = new Zoo();
 myZoo.lion.speak();
 
 // Make tiger speak
-myZoo.lion.speak();
+myZoo.tiger.speak();
 
 ```
 ## Tests
