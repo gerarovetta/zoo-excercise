@@ -25,21 +25,21 @@ type of animal.
 
 ## Usage
 
-    **Zoo Class**:
+  **Zoo Class**:
 
-    The Zoo class represents the overall zoo and is responsible for managing the animals within the zoo.
-    It could have methods for adding animals, removing animals, and performing actions involving the animals.
+  The Zoo class represents the overall zoo and is responsible for managing the animals within the zoo.
+  It could have methods for adding animals, removing animals, and performing actions involving the animals.
 
-    **Animal Class (Base Class)**:
+  **Animal Class (Base Class)**:
 
-    The Animal class is an abstract or base class that serves as the blueprint for all animal species in the zoo.
-    It can define common properties and behaviors that all animals share
+  The Animal class is an abstract or base class that serves as the blueprint for all animal species in the zoo.
+  It can define common properties and behaviors that all animals share
     
-    **Lion Class (Subclass of Animal)**:
+  **Lion Class (Subclass of Animal)**:
 
-    The Lion class is a subclass of the Animal class, representing a specific species in the zoo (in this case, lions).
-    It can inherit properties and methods from the Animal class and add its own unique characteristics, such as a specific sound.
-    The Lion class might override the makeSound method to provide the lion's distinctive roar.
+  The Lion class is a subclass of the Animal class, representing a specific species in the zoo (in this case, lions).
+  It can inherit properties and methods from the Animal class and add its own unique characteristics, such as a specific sound.
+  The Lion class might override the makeSound method to provide the lion's distinctive roar.
 
 Here's an example of how to use the zoo in your JavaScript code:
 
