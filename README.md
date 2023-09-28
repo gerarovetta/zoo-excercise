@@ -9,13 +9,14 @@ type of animal.
 ## Project Structure :rocket:
 
 - `zoo-excercise/`: Contains the source code for the project.
-  - `animals/`: Houses all animal-related classes.
-    - `Animal.js`: The base class for all animal types.
-    - `Lion.js`: A class representing lions.
-    - `Tiger.js`: A class representing tigers.
-    - `Elephant.js`: A class representing elephants.
-    - ... 
-  - `zoo.js`: A class for the zoo representation.
+  - `zoo/`: Houses all animal-related classes.
+    - `animals/`: Houses all animal-related classes.
+      - `Animal.js`: The base class for all animal types.
+      - `Lion.js`: A class representing lions.
+      - `Tiger.js`: A class representing tigers.
+      - `Elephant.js`: A class representing elephants.
+      - ... 
+    - `zoo.js`: A class for the zoo representation.
 - `index.js`: main project file.
 - `test/`: Contains unit tests for the project.
   - `test.js`: The unit test file for testing the zoo and animal classes.
