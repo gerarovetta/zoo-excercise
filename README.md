@@ -34,12 +34,49 @@ type of animal.
 
   The Animal class is an abstract or base class that serves as the blueprint for all animal species in the zoo.
   It can define common properties and behaviors that all animals share
+
+  ```javascript
+  class Animal {
+      /**
+       * Create an animal instance.
+       * @param {string} name - The name the animal makes.
+       * @param {string} sound - The sound the animal makes.
+       */
+      constructor(name, sound) {
+        this.name = name;
+        this.sound = sound;
+      }
+    
+      /**
+       * Make the animal speak by adding its sound to the input.
+       * @param {string} input - The input string.
+       * @returns {string} The modified string with the animal's sound.
+       */
+      speak(input) {
+        const animalSound = this.sound;
+        return input.split(' ').map(word => `${word} ${animalSound}`).join(' ');
+      }
+
+    }
+
+```
     
   **Lion Class (Subclass of Animal)**:
 
   The Lion class is a subclass of the Animal class, representing a specific species in the zoo (in this case, lions).
   It can inherit properties and methods from the Animal class and add its own unique characteristics, such as a specific sound.
   The Lion class might override the makeSound method to provide the lion's distinctive roar.
+  
+```javascript
+  class Lion extends Animal {
+  /**
+   * Create a Lion instance.
+   */
+  constructor() {
+    super('Lion', 'roar');
+  }
+}
+```
 
 Here's an example of how to use the zoo in your JavaScript code:
 
